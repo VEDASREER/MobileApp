@@ -17,7 +17,7 @@ TextView gotoregister;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         loginbtn = findViewById(R.id.loginbtn);
-        gotoregister = findViewById(R.id.registerbtn);
+        gotoregister = findViewById(R.id.gotoregister);
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
